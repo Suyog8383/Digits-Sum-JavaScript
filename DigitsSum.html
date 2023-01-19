@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Digit sum</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  let num = 6;
+  let sum = 0;
+  while (num > 0) {
+    sum = sum + Math.trunc(num % 10);
+    num = num / 10;
+  }
+  console.log("@SN ", sum);
+</script>
